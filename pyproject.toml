@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.11"
 requests = "^2.31.0"
 
+[tool.poetry.scripts]
+main = 'awesome_taiwan_foods.main:main'
 
 [build-system]
 requires = ["poetry-core"]
